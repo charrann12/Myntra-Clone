@@ -2,6 +2,36 @@
     display: flex;
 }
 
-nav{
-    padding: 1px 100px;
+.items-center{
+align-items: center;
+} 
+
+.justify-center{
+justify-content: center;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.semiBold{
+    font-weight: 400;
+}
+
+.mx-2{
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.search{
+    width: 34vw;
+    padding: 7 17px;
+    border: 0.5px solid grey;
+    background-color: #f7f8fd;
+    border-radius: 5px;
+    
 }
